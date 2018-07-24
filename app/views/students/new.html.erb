@@ -1,0 +1,11 @@
+<h3>New Student Form</h3>
+
+<%= form_tab students_path do %>
+  <label>Student First Name:</label><br>
+  <%= text_field_tag :'post[title]' %><br>
+
+  <label>Post description:</label><br>
+  <%= text_area_tag :'post[description]' %><br>
+
+  <%= submit_tag "Submit Post" %>
+<% end %>
